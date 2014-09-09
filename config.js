@@ -13,7 +13,7 @@ var config = {
 	site: {
 		url: 'http://localhost:3000',
 		title: 'Codejobs',
-		language: 'es',
+		language: 'en',
 		html: {
 			engine: 'jade',
 			minify: true

@@ -1,7 +1,7 @@
 var translations = {
   site: {
-    'hi': 'Hi',
-    'welcome': 'Welcome to Codejobs'
+    hi: 'Hi',
+    welcome: 'Welcome to Codejobs'
   }
 };
 

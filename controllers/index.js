@@ -1,5 +1,9 @@
-exports.index = function(req, res) {
-  global.i18n.setLanguage(req.params.lang);
+var express = require('express');
+var router = express.Router();
 
+/* GET home page. */
+router.get('/', function(req, res) {
   res.render('index', { welcome: global.lang.site.welcome });
-};
+});
+
+module.exports = router;
